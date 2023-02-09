@@ -1,0 +1,166 @@
+a {
+    color: rgb(216, 216, 216) !important;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(255, 149, 239) 36%, rgba(0, 0, 0, 1) 81%);
+}
+
+.banner {
+    padding: 170px;
+    margin-bottom: 50px;
+}
+
+.fotodeperfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(0, 0, 0);
+    margin: auto;
+    background-image: url(img/Fotodeperfil.png);
+    background-repeat: round;
+
+}
+
+.titulonombre {
+    margin-top: 20px;
+    color: gray;
+}
+
+.bloque1 {
+    border: solid black 5px;
+    border-left: none;
+    background-color: rgb(255, 148, 148);
+    margin-bottom: 40px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.redessociales {
+    background-color: rgb(156, 164, 237);
+    border-radius: 100px 100px 100px 100px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.icons-intereses {
+    padding: 10px;
+    background-color: rgb(253, 251, 251);
+    border: solid black 3px;
+    border-top: none;
+}
+
+.fa-plane {
+    color: brown;
+    animation: vuelo infinite 3s;
+}
+
+@keyframes vuelo {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.fa-hammer {
+    color: red;
+    animation: martillo infinite 1s;
+}
+
+@keyframes martillo {
+    0% {
+        transform: rotate(10deg);
+
+    }
+
+    50% {
+        transform: rotate(60deg);
+    }
+}
+
+
+
+
+
+.estudios {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.box-1 {
+    background-color: beige;
+    border-radius: 20px 20px 0 0;
+    border: solid 3px black;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.box-2 {
+    padding: 10px;
+    background-color: beige;
+}
+
+.box-3 {
+    background-color: beige;
+    border-radius: 0 0 20px 20px;
+    border: black 3px solid;
+    border-top: none;
+    padding: 10px;
+}
+
+
+.icons-skills {
+    background-color: rgb(210, 255, 255);
+    padding: 15px;
+    border-bottom: 6px solid black
+}
+
+.informacion {
+    padding: 20px; 
+    padding-left: none;
+    margin-top: 40px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-left: none;
+    border-top: none;
+}
+
+form {
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgb(175, 135, 249);
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+.formulario{
+    background-color: azure;
+    
+    
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    align-content: center;
+   
+}
+.ulfooter{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+.lifooter a {
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
